@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="o0QvVrX9ziJveozlzUZg">
+    <mxGraphModel dx="1202" dy="1750" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DRCiULEPSstWsFFeQEie-44" edge="1" parent="1" source="DRCiULEPSstWsFFeQEie-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="DRCiULEPSstWsFFeQEie-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USUARIOS&lt;br&gt;-------------&amp;nbsp;&lt;br&gt;PK&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;id_usuario&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;nombre&lt;/span&gt;&lt;/div&gt;&lt;div&gt;apellido&lt;br&gt;correo&lt;br&gt;estado&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="170" x="270" y="-1140" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;AUTENTICACION&lt;br&gt;------------------&lt;br&gt;PK id_auth&lt;br&gt;FK id_usuario&lt;br&gt;nombre_dispositivo&lt;br&gt;fecha_acceso&lt;br&gt;resultado" vertex="1">
+          <mxGeometry height="120" width="120" x="307" y="-910" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-21" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409.9999999999998" y="229.99999999999977" as="sourcePoint" />
+            <mxPoint x="395" y="229.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-64" edge="1" parent="1" source="DRCiULEPSstWsFFeQEie-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="DRCiULEPSstWsFFeQEie-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERVICIOS&lt;br/&gt;------------------&lt;br/&gt;PK id_servicio&lt;br/&gt;nombre&lt;br/&gt;descripcion&lt;br/&gt;precio&lt;br/&gt;activo" vertex="1">
+          <mxGeometry height="120" width="120" x="481" y="-861" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-48" edge="1" parent="1" source="DRCiULEPSstWsFFeQEie-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="-780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-28" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CONTRATACIONES&lt;br/&gt;------------------&lt;br/&gt;PK id_contratacion&lt;br/&gt;FK id_usuario&lt;br/&gt;FK id_servicio&lt;br/&gt;fecha_contratacion&lt;br/&gt;estado" vertex="1">
+          <mxGeometry height="134" width="134" x="533" y="-1114" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;PAGOS&lt;/div&gt;&lt;div&gt;------------------&lt;/div&gt;&lt;div&gt;PK id_pago&lt;/div&gt;&lt;div&gt;FK id_contratacion&lt;/div&gt;&lt;div&gt;monto&lt;/div&gt;&lt;div&gt;fecha_pago&lt;/div&gt;&lt;div&gt;estado_pago&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="120" x="689" y="-780" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-57" edge="1" parent="1" source="DRCiULEPSstWsFFeQEie-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="DRCiULEPSstWsFFeQEie-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;AUDITORIA&lt;br&gt;------------------&lt;br&gt;PK id_auditoria&lt;br&gt;FK id_usuario&lt;br&gt;accion&lt;br&gt;fecha&lt;br&gt;resultado&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="120" x="78" y="-930" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="337" y="-771" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="442" y="-1092" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="533" y="-949" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="719" y="-832" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="182" y="-1062" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="38" x="359" y="-949" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-70" edge="1" parent="1" source="DRCiULEPSstWsFFeQEie-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.398;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=gap;" target="DRCiULEPSstWsFFeQEie-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DRCiULEPSstWsFFeQEie-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;N&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="91" y="-960" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
