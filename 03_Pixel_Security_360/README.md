@@ -6,7 +6,7 @@ También aprendí a insertar registros y realizar consultas SQL para comprobar q
 
 Además, aprendí a realizar respaldos de la base de datos y a guardar evidencias en GitHub para documentar el trabajo realizado.
 
-En conclusión, este parcial me ayudó a reforzar mis conocimientos de SQL y a resolver problemas paso a paso durante el desarrollo del proyecto.# Parte III: Pixel-Security-360
+En conclusión, este parcial me ayudó a reforzar mis conocimientos de SQL y a resolver problemas paso a paso durante el desarrollo del proyecto.
 
 ## Descripción
 
