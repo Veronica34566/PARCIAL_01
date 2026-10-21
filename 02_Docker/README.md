@@ -12,7 +12,7 @@ El objetivo fue crear las tablas, relacionarlas, insertar datos y realizar consu
 - Docker Compose
 - MariaDB 11
 - SQL
-- Visual Studio Code y CMD para trabajar con los archivos y ejecutar los comandos
+- CMD de Windows: para ejecutar los comandos de Docker y conectarme a MariaDB desde la consola.
 
 ## 3. Configuración de Docker
 
